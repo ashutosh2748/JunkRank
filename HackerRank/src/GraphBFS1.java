@@ -1,4 +1,4 @@
-import java.io.*;
+/*import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
@@ -82,7 +82,7 @@ public class GraphBFS1 {
 	}
 	
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+         Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. 
     	
     	Scanner in =new Scanner(System.in);
     	int q=in.nextInt();
@@ -104,7 +104,7 @@ public class GraphBFS1 {
     		//GraphBFS1 G=new GraphBFS1();
     		Graph G=new Graph(edges);
     		
-    		/*int[] nodes=new int[edgeCount*2];
+    		int[] nodes=new int[edgeCount*2];
     		
     		for(int k=0;k<edgeCount;k++)
     			nodes[k]=edges[k][0];
@@ -119,7 +119,7 @@ public class GraphBFS1 {
     		}
     		for(int i=0;i<test.length;i++)
     			if(vertices[i][1]==0)BFS(vertices,edges,vertices[i]);
-    		*/
+    		
     	}
     	  	
     			
@@ -168,10 +168,10 @@ public class GraphBFS1 {
         for (int i = 0; i < end; i++) {
             for (int j = i + 1; j < end; j++) {
                 if (arr[i] == arr[j]) {                  
-                    /*int shiftLeft = j;
+                    int shiftLeft = j;
                     for (int k = j+1; k < end; k++, shiftLeft++) {
                         arr[shiftLeft] = arr[k];
-                    }*/
+                    }
                     arr[j] = arr[end-1];
                     end--;
                     j--;
@@ -180,12 +180,13 @@ public class GraphBFS1 {
         }
 
         int[] whitelist = new int[end];
-        /*for(int i = 0; i < end; i++){
+        for(int i = 0; i < end; i++){
             whitelist[i] = arr[i];
-        }*/
+        }
         System.arraycopy(arr, 0, whitelist, 0, end);
         return whitelist;
     }
     
     
     }
+*/

@@ -1,4 +1,4 @@
-import java.io.*;
+/*import java.io.*;
 import java.util.*;
 import java.text.*;
 import java.math.*;
@@ -7,7 +7,7 @@ import java.util.regex.*;
 public class bakwas {
 
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+         Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. 
     	String abc="abab";
     	int m=abc.length();
  	   int n=abc.length();
@@ -35,4 +35,4 @@ public class bakwas {
 	   
    }
    
-}
+}*/
